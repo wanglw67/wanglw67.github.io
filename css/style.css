@@ -1,23 +1,25 @@
 
 #container{margin: auto; width:100%; height:auto; background-color: white; }
 /**/
-.header{width: 100%; max-width: 1140px;  min-width: 755px;  margin: 0 auto; font-size: 50px; text-shadow: 2px 5px 10px #000000}
+.header{width: 100%; max-width: 1140px;  min-width: 755px;  margin: 0 auto; font-size: 50px; color: tan; text-shadow: 2px 5px 10px #000000}
 /*导航条*/
 .navigation{margin: 0 10%; background: tan;box-shadow: 2px 5px 10px}
 .container{padding-left: 50px;padding-right: 10px;}
 .row{width: 100%; max-width: 1840px;  min-width: 755px; margin: 0 auto;  overflow: hidden;}
 /*导航列表*/
-#nav{font:15px verdana,arial,sans-serif; color: white;}
+#nav{font:12px verdana,arial,sans-serif; color: white;}
 #nav,#nav li{list-style: none; padding: 0; margin: 0; float: left;}
 #nav li{float: left;}
 #nav li a{display: block; padding: 8px 60px; color: block; text-decoration: none; width: 45px; height: 10px; line-height: 10px; text-align: center;}
 #nav li a:hover{font-weight: bold; color: red;}/*变色*/
 /*侧栏*/
-.menu{margin: 20px 0 10% 10%; width:10%; height: auto; background-color:#EEEEEE; float: left; text-align: left;}
-.word{margin: 20px 0 10% 40px; width:auto; height: auto; background-color:#EEEEEE; float: left; text-align: left;}
+.menu{margin: 20px 0 10% 10%; width:10%; height: auto; background-color:#EEEEEE; float: left; font-size: 12px; text-align: left;}
+.word{margin: 20px 0 10% 40px; width:auto; height: auto; background-color:#EEEEEE; float: left; font-size: 12px; text-align: left;}
 /*正文*/
 #content{margin: 5px 20%; width:60%; height: 600px; padding: 0;}
-.date{margin: 10px 0 10px 10px;text-align:left; font-weight: bold; color: black;}
+.tittle{margin: 10px 0 10px 10px;text-align:left; font-size: 15px; color: black;}
+.post{margin: 0 0 0 0px;text-align:left; font-size: 15px; color: black; text-indent: 30px }
+.date{margin: 20px 1% 20px 0; text-align: right; font-size: 10px; color: gray;}
 /*图片*/
 .picture{width: 100%; height: 100%;text-align:center;}
 .picture span{ position: absolute; top: 5%; left: 15%;font-size: 28px; text-shadow: 1px 5px 5px #FFF000}
